@@ -1,2 +1,5 @@
 # programming-notes
-My programming notes that are on .md files.
+
+### About
+
+A collection of my programming notes.
