@@ -1,10 +1,4 @@
-# What I Learned in Week 3 at Code Immersives
-
-### About
-
-In this README file I try to simply explain the concepts I learned in week 3 at Code Immersives.
-
----
+# Git, GitHub, and JavaScript
 
 ### Topics Covered
 

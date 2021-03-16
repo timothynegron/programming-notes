@@ -1,10 +1,4 @@
-# What I learned in Week 5 at Code Immersives
-
-### About
-
-This readme file contains notes from concepts I learned in week 5 at [Code Immersives](https://www.codeimmersives.com) - The best total immersion programmer training in NYC. 
-
----
+# Programming Logic and Node Apps
 
 ### Topics Covered
 

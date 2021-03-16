@@ -1,10 +1,4 @@
-# What I Learned in Week 4 at Code Immersives
-
-### About
-
-In this readme file I try to simply explain the concepts I learned in week 4 at Code Immersives.
-
----
+# Programming Foundations
 
 ### Topics Covered
 

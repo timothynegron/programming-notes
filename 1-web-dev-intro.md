@@ -1,10 +1,4 @@
-# What I learned in Week 1 at Code Immersives
-
-### About
-
-In this README file I try to simply explain the concepts I learned in week 1 at Code Immersives.
-
----------------------------------------------------------------------------
+# Web Development Introduction
 
 ### Topics Covered
 

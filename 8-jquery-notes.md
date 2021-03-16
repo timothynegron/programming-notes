@@ -1,9 +1,5 @@
 # jQuery Research Notes
 
-### About
-
-Just a readme file with notes I've taken on jQuery.
-
 ### Topics
 
 1. Introduction to jQuery

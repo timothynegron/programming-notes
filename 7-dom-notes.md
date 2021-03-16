@@ -1,10 +1,4 @@
-# DOM Notes
-
-### About
-
-A readme file with notes I've taken on JavaScript DOM.
-
----
+# Document Object Model Notes
 
 ### Topics
 
