@@ -4,17 +4,22 @@ Research Notes on smart Web Design.
 
 ### References
 
-1. [Daily UI](https://www.dailyui.co/)
-2. [Adobe Color](https://color.adobe.com/create/color-wheel)
-3. [Color Hunt](https://colorhunt.co/)
+1. [**Adobe Color** - for Color Picking](https://color.adobe.com/create/color-wheel)
+2. [**Collect UI** - for Color Picking](https://collectui.com/)
+3. [**Dribble** - for Inspiration](https://dribbble.com/)
+4. [**Color Hunt** - for Inspiration](https://colorhunt.co/)
+5. [**Daily UI** - for Design Practice](https://www.dailyui.co/)
+6. [**Canva** - for Design Practice](https://www.canva.com/)
+7. [**Loremipsum** - for Design Practice](https://loremipsum.io/)
 
 ### Topics Covered
 
-1. Web Design Introduction
-2. Color Theory
-3. Typography
-4. UI Design
-5. UX Design
+1. **Web Design Introduction**
+2. **Color Theory**
+3. **Typography**
+4. **UI Design**
+5. **UX Design**
+6. **My Own Process of Designing**
 
 ### Web Design Introduction
 
@@ -148,3 +153,24 @@ Research Notes on smart Web Design.
 4. **All Platform Design** (Responsive)
 5. **Don't Use Your Powers for Evil** (Dark Patterns)
 
+### My Process (Draft)
+
+1. Think about UX
+   1. What should be big
+   2. Colors easy on the eyes
+   3. Font type easy to read
+   4. Is it easy to do what it's meant to do?
+   5. Wire frame it
+   6. Content alignment
+   7. Play Around
+
+2. Think about Audience
+   1. Colors
+   2. Art Patterns
+   3. Images
+   4. Font type matters
+   5. Play Around
+
+3. Finally
+   1. Is the design pattern consistent?
+   2. Is it responsive?
