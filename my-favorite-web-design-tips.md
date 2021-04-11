@@ -3,6 +3,10 @@
 ### Topics Covered
 
 1. Web Design Introduction
+2. Color Theory
+3. Typography
+4. UI Design
+5. UX Design
 
 ### Web Design Introduction
 
@@ -24,11 +28,11 @@
 * Colors can help convey a message.
 * You need to be aware of the mood of your color palette.
 
-  1. Red - Energitic, intensity
-  2. Yellow - Joy, attention grabbing, (too much can hurt users eyes.)
-  3. Green - Fresh, safe, good for food
-  4. Blue - Serenity, trust, (Banks use blue a lot.)
-  5. Purple - Wealth, Royalty, Femininity (Used sometimes to target women)
+  1. **Red** - Energitic, intensity
+  2. **Yellow** - Joy, attention grabbing, (too much can hurt users eyes.)
+  3. **Green** - Fresh, safe, good for food
+  4. **Blue** - Serenity, trust, (Banks use blue a lot.)
+  5. **Purple** - Wealth, Royalty, Femininity (Used sometimes to target women)
 
 ![color moods example 1](assets/color-moods-1.png)
 ![color moods example 2](assets/color-moods-2.png)
@@ -56,4 +60,56 @@
 
 ### Typography
 
-* 
+* Fonts could make design look professional
+* Fonts could convey a mood
+
+* Serif Family - (Have feet) (Inspire by marble carving)
+* Serif looks - Serious, Authoritative, Older, Legal
+    1. Old Style (Old Mood)
+    2. Transitional (In Between)
+    3. Modern (New Mood)
+* If you want Authoritative (San serif) then if you want newer pick something more modern. (Didot)
+
+* Sans Serif - (No feet) (Perfect right angle)
+* Sans Serif - Friendly, Approachable, novel non-contemporary, Straightforward
+* Humanist typeface = Highly readable
+* Pleasant to read
+* Use easy to read on example = (Sales pitch, want user to read as much as possible)
+* Use only two fonts in one design or at least one section
+* **Finding fonts**: Find fonts that have similar moods
+
+![legibility](assets/legibility.png)
+![font moods](assets/font-moods.png)
+![picking fonts](assets/picking-fonts.png)
+
+### User Interface Design
+
+* Use hierarchy with font to have user read most important information you want them to read first 
+
+![hierarchy font](assets/hierarchy-font.png)
+
+* Use hierarchy with color to separate importance
+
+![hierarchy color](assets/hierarchy-color.png)
+
+* Use hierarchy with size of font and boxes 
+* Use hierarchy with layout of website
+* 40 to 60 Characters per line
+
+![layout text](assets/layout-text.png)
+
+* All of this helps user get through more of the website
+* Alignment helps make sites look professional
+
+![layout alignment](assets/layout-alignment.png)
+![layout alignment 2](assets/layout-alignment-2.png)
+![layout alignment 3](assets/layout-alignment-3.png)
+
+* Inject white space around elements
+* White space elevates, makes site look clean
+
+![layout white space](assets/inject-white-space.png)
+
+* Think about the audience and what would appeal to them
+
+![audience](assets/audience.png)
