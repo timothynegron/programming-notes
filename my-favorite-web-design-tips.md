@@ -1,5 +1,13 @@
 # Web Design Tips
 
+Research Notes on smart Web Design.
+
+### References
+
+1. [Daily UI](https://www.dailyui.co/)
+2. [Adobe Color](https://color.adobe.com/create/color-wheel)
+3. [Color Hunt](https://colorhunt.co/)
+
 ### Topics Covered
 
 1. Web Design Introduction
@@ -84,6 +92,12 @@
 
 ### User Interface Design
 
+1. Hierarchy
+2. Layout
+3. Alignment
+4. White space
+5. Audience
+
 * Use hierarchy with font to have user read most important information you want them to read first 
 
 ![hierarchy font](assets/hierarchy-font.png)
@@ -113,3 +127,24 @@
 * Think about the audience and what would appeal to them
 
 ![audience](assets/audience.png)
+
+### User Experience Design
+
+* Un-intrusive and Invisible
+* Lets you do your thing
+* Feels like everything is easy
+* Feels like everything is effortless
+
+![ux vs design](assets/ux-vs-design.png)
+
+1. **Simplicity** Not Overwhelming and Content can be differientiated
+2. **Consistency** (EX: Don't create 3 different Nav Bars)
+3. **Reading Patterns** (Use the F-Layout or Z-Layout)
+
+![f-layout](assets/f-layout.png)
+![z-layout](assets/z-layout.png)
+![z-layout-2](assets/z-layout-2.png)
+
+4. **All Platform Design** (Responsive)
+5. **Don't Use Your Powers for Evil** (Dark Patterns)
+
