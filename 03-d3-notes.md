@@ -75,3 +75,9 @@ The coordinate system starts from top left
 
 * New when chaining
 * Minifying will get rid of white space
+
+### `Drawing with Data`
+
+* Can pass dataset to .data() method
+* Can use anonymous functions to help draw
+* Use width and height variables to help draw
