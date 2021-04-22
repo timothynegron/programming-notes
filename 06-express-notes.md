@@ -4,6 +4,8 @@
 
 1. [Express JS Website](https://expressjs.com/)
 2. [Hello World Example](http://expressjs.com/en/starter/hello-world.html#hello-world-example)
+3. [HTTP response status code](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
+4. [HTTP Status Dogs](https://httpstatusdogs.com/)
 
 ---
 
@@ -11,6 +13,7 @@
 
 1. Creating an Express Server
 2. Responding with HTML files
+3. Making GET Request with Node HTTPS Module
 
 ---
 
@@ -117,13 +120,73 @@ req.body // Returns array
 req.body.num1 // Returns data stored in num1
 ```
 
+## Making GET Request with Node HTTPS Module
+
+### `Step 1`
+
+Create variable to hold native https library
+* HTTPS is a native module
+* Making a get request across the internet using the HTTP protocol
+
+```javascript
+const https = require("https");
+```
+
+### `Step 2`
+
+Call `https.get()`
+
+```javascript
+app.get("/", function(req, res){
+
+    const url = "https://api.openweathermap.org/data/2.5/weather";
+
+    //
+    https.get(url, function(response){
+        console.log(response.statusCode)
+    })
+
+
+    res.sendFile(__dirname + "/index.html");
+})
+```
+
+### `Step 3`
+
+Use response.on() to get data
+
+```javascript
+// Fetch from external server
+    https.get(url, function(response){
+        console.log(response.statusCode)
+
+        response.on("data", function(data){
+
+            // Convert data from HEX to JSON
+            const weatherData = JSON.parse(data)
+
+            // Collect data of interest
+            const temp = weatherData.main.temp;
+            const feelsLike = weatherData.main.feels_like;
+            const weatherDescription = weatherData.weather[0].description;
+            
+            // Response to give the browser
+            res.send("<h1>The temperature in New York is " + temp + " degrees Fahrenheit</h1>")
+        })
+    })
+```
+
 
 ## `Other Notes`
 
 HTTP codes cheat sheet:
 
-1. Hold on
-2. Here you go
-3. Go away (Security)
-4. You fucked up (error)
-5. I fucked up (error)
+1. 100 - 199: Hold on (Informational responses)
+2. 200-299: Here you go (Successful responses)
+3. 300-399: Go away (Security) (Redirects)
+4. 400-499: You fucked up (error) (Client errors)
+5. 500-599: I fucked up (error) (Server errors)
+
+* HTTP code 200: Successful response
+* HTTP code 404: Resource not found (Could mean typo on url)
+* HTTP code 401: Unauthorized HTTP request (Could mean wrong API key)
