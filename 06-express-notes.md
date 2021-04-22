@@ -14,6 +14,7 @@
 1. Creating an Express Server
 2. Responding with HTML files
 3. Making GET Request with Node HTTPS Module
+4. Getting Data from Forms with Express
 
 ---
 
@@ -176,6 +177,44 @@ Use response.on() to get data
     })
 ```
 
+## Getting Data from Forms with Express
+
+### `Step 1`
+
+Add method and action attributes
+
+```html
+<form method="POST" action="/"></form>
+```
+
+### `Step 2`
+
+Add variable names for inputs
+
+```html
+<input name="cityName">
+```
+
+### `Step 3`
+
+Add body parser module and call app.use() method
+
+```javascript
+const bodyParser = require("body-parser");
+app.use(bodyParser.urlencoded({extended: true}));
+```
+
+### `Step 4`
+
+On post method, use body parser to store data from input in variable
+
+```javascript
+app.post("/", function(req, res){
+
+    // Get input from user
+    const query = req.body.cityName;
+})
+```
 
 ## `Other Notes`
 
