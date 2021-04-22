@@ -65,6 +65,3 @@ Data Presented as Object.
 Favored format because:
 * It's lighter weight than XML and HTML.
 * It's easy to turn back into a JavaScript object.
-
-### Putting APIs into Practice
-
