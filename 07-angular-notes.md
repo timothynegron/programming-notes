@@ -10,6 +10,7 @@
 
 1. Important Commands
 2. How Angular Gets Loaded
+3. Understanding Data Binding
 
 ### Important Commands
 
@@ -21,7 +22,6 @@ ng new [app name] -- no strict
 ng serve
 ```
 
-
 ### How Angular Gets Loaded
 
 1. index.html served by the server
@@ -30,7 +30,6 @@ ng serve
 4. app.component.html
 5. NG will create scripts that are inject by the CLI automatically
 6. NG will build and inject those script files to index.html
-
 
 ### Creating a new Component
 
@@ -51,4 +50,21 @@ Module: Gives information to angular about components and features the app has
 11. Add `import { [component name] } from './[cn]/[cn].component';`
 12. Add the component to app.component.html
 13. `<app-[component name]></app-server>`
- 
+
+### Understanding Data Binding
+
+_Databinding = Communication_
+
+**Output Data - >**
+
+String Interpolation { `{{data}}` }
+
+Property Binding ( `[property] = "data"` )
+
+**< - React to (User) Events**
+
+Event Binding ( `(event) = "expression"` )
+
+**Two-Way-Binding**
+
+Combination of Both: Two-Way-Binding ( `[(ngModel)]="data"`)
