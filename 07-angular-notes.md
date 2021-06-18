@@ -57,7 +57,7 @@ _Databinding = Communication_
 
 **Output Data - >**
 
-String Interpolation { `{{data}}` }
+String Interpolation { `{{data}}` } [[[ Use this sytax to reference properties (must return string)]]]
 
 Property Binding ( `[property] = "data"` )
 
