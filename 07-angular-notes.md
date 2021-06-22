@@ -51,7 +51,7 @@ Module: Gives information to angular about components and features the app has
 12. Add the component to app.component.html
 13. `<app-[component name]></app-server>`
 
-### Understanding Data Binding
+### Understanding DataBinding
 
 _Databinding = Communication_
 
@@ -68,3 +68,31 @@ Event Binding ( `(event) = "expression"` )
 **Two-Way-Binding**
 
 Combination of Both: Two-Way-Binding ( `[(ngModel)]="data"`)
+
+### Databinding
+
+```javascript
+[ngModel] = "serverName"; // two way binding
+{
+  {
+    servername;
+  }
+} // one way binding
+{
+  {
+    getServerStatus();
+  }
+} // one way binding
+```
+
+Structural Directive
+
+```javascript
+*ngIf="serverCreated" // returns true or false
+```
+
+Attribute Directive
+
+```javascript
+
+```
